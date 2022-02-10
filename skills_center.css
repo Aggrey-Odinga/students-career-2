@@ -15,8 +15,8 @@
 
 .skills{
     width: 50%;
-    margin-left: 40px;
-    margin-top: 10%;
+    margin-left: 60px;
+    margin-top: 4%;
 }
 h1{
     text-align: inherit;
@@ -42,7 +42,7 @@ h2{
     text-align: center;
 }
 .container_1{
-    /* border: 2px solid green; */
+    border: 2px solid green;
     width: 60%;
     margin-left: 5%;
     margin-top: 5%;
@@ -52,7 +52,7 @@ h2{
 
 }
 .job_links{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     width: 60%;
     margin-top: 2%;
     background-color: turquoise;
