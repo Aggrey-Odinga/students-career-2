@@ -37,7 +37,7 @@ nav {
   padding: 2% 5%;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  
 }
 }
  
@@ -83,6 +83,7 @@ a:hover {
   color: orange;
   font-size: 60px;
   letter-spacing: 15px;
+  margin-top: -300px;
 }
 
 
