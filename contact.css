@@ -1,6 +1,22 @@
 body{
   margin: 50px;
 }
+nav {
+  padding: 10px;
+}
+nav li{
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+nav>ul>li>a{
+  padding: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #B23128;
+}
 
 
 h1{
@@ -91,7 +107,7 @@ span{
 }
 .map1{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .map img{
   width: 650px;
@@ -105,7 +121,6 @@ span{
 }
 .map,h1,h2{
   text-align: center;
-  
   
 }
 
