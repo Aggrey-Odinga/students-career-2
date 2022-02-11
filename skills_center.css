@@ -47,7 +47,7 @@ h2{
     margin-left: 5%;
     margin-top: 5%;
     background: turquoise;
-    box-shadow: 4px 2px 0;
+    box-shadow: 13px 2px 0;
     
 
 }
@@ -57,7 +57,7 @@ h2{
     margin-top: 2%;
     background-color: turquoise;
     margin-left: 5%;
-    box-shadow: 4px 2px 0;
+    box-shadow: 13px 2px 0;
     margin-bottom: 4%;
     
     
@@ -73,3 +73,41 @@ h2{
 h4{
    margin-top: 4%;
 }
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+  }
+  .foot ul li a{
+    text-decoration: none;
+  }
+  .foot{
+    line-height: 30px;
+  }
+  .image .fa-twitter-square{
+    font-size: 40px;
+    color: #3A589B;
+    background-color: white;
+    }
+    .image .fa-facebook{
+    color:#3A589B;
+    font-size:35px ;
+    }
+    .image .fa-youtube{
+      font-size: 18px;
+      color:#FFF;
+      background-color:#E33F20;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .image .fa-linkedin-in{
+      font-size: 20px;
+     background-color:#3A589B;
+     color: white;
+     border-radius: 50%;
+     padding: 10px;
+    }
+    #footer p{
+     color: #222222;
+    }
