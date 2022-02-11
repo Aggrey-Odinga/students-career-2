@@ -4,48 +4,26 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-nav{
-    background-color: brown;
-    color: white;
-
-}
-/* .btn{
-    border: 2px solid black;
-    border-color: green;
-} */
-ul>li{
-    list-style: none;
-    font-weight: 700;
-
-}
-li>a{
-    color: white;
+  /* .logo{
+    float: left; 
+    margin-top: -15px; 
+    color: blue; 
+    font-size: 35px;
     text-decoration: none;
-    font-weight: bold;
-}
-.sub-section {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
+    display: block;
+    text-align: left;
+    border-radius: 20px;
+  } 
+  ul li{
+      display: inline;
   }
-  li.sub-section {
-    display: inline-block;
+  li a{
+      text-decoration: none;
+      color: black;
   }
-/*services page styling*/
-.services-section>h3, h3 {
-    color: #21C4FF;
-    font-size: 5vh;
-
-}
-.basic-services>h3{
-    color: #21C4FF;
-    
-    
-}
-p{
-    color: #696A78;
-}
+  .logo>a{
+      text-decoration: none;
+  } */
 /* Team members section */
 .members{
     display: flex;
@@ -369,3 +347,52 @@ hr{
     font-size:4vh ;
     text-align: center;
 }
+/* FOOTER CSS */
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 5%;
+    color: blue;
+    background-color: rgba(249, 220, 239, 0.5);
+  }
+  .info{
+      width: 40%;
+  }
+  .image{
+      
+  }
+  .foot ul li a{
+    text-decoration: none;
+  }
+  .foot{
+    line-height: 30px;
+  }
+  .image .fa-twitter-square{
+    font-size: 40px;
+    color: #3A589B;
+    background-color: white;
+    }
+    .image .fa-facebook{
+    color:#3A589B;
+    font-size:35px ;
+    }
+    .image .fa-youtube{
+      font-size: 18px;
+      color:#FFF;
+      background-color:#E33F20;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .image .fa-linkedin-in{
+      font-size: 20px;
+     background-color:#3A589B;
+     color: white;
+     border-radius: 50%;
+     padding: 10px;
+    }
+    #footer p{
+     color: #222222;
+     font-size: 2vh;
+     line-height: 1.6;
+    }
