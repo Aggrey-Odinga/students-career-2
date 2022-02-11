@@ -66,13 +66,22 @@ body{
     margin: 10px;
     padding: 10px;
     word-spacing: 4px;
-    height: 60vh;
+    height: 80vh;
     
 }
 .career-gd-p{
     justify-content: space-between;
-    margin: 20px;
+    margin-left: 20px;
     padding: 20px;
+}
+.employment{
+    margin-left: 30px;
+    padding-left: 10px;
+    box-shadow: #42b7ff 3px 3px 3px 3px;
+}
+.employment ol li{
+    margin-left: 40px;
+    padding-left: 10px;
 }
  .careerbody .career-gd-img img{
     width: 600px;
