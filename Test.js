@@ -38,12 +38,13 @@ function grade() {
     var test14 = document.getElementById("option14").value;
     var test15 = document.getElementById("option15").value;
 
-    var test = [test14]
-    console.log(test.length);
+    var test = [test1, test2, test3, test4, test5, test6, test7,
+         test8, test9, test10, test11, test12, test13, test14, test15]
 
-    if( test!==""){
-        alert("PLEASE FILL ALL THE FIELDS")
-        document.write("THANK YOU") 
+    if( test.length!==""){
+        // alert("PLEASE WAIT AS WE PROCESS YOUR INFORMATION")
+        // document.write("SUCCESS!! PLEASE WAIT AS WE PROCESS YOUR INFORMATION") 
+        window.location.replace("index.html");
     }
 
     // document.getElementById("suggestion").innerHTML = "Please Wait as we evaluate your data";
