@@ -42,7 +42,7 @@ function grade() {
          test8, test9, test10, test11, test12, test13, test14, test15]
 
     if( test.length!==""){
-        // alert("PLEASE WAIT AS WE PROCESS YOUR INFORMATION")
+        alert("PLEASE WAIT AS WE PROCESS YOUR INFORMATION")
         // document.write("SUCCESS!! PLEASE WAIT AS WE PROCESS YOUR INFORMATION") 
         window.location.replace("index.html");
     }
