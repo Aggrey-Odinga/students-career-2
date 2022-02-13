@@ -1,5 +1,5 @@
 body{
-  margin: 50px;
+  margin: 20px;
 }
 nav {
   padding: 10px;
@@ -126,7 +126,7 @@ span{
 }
 .map{
   position: relative;
-  left: 200px;
+  left: 230px;
 }
 
 form ,input{
@@ -172,6 +172,9 @@ form,textarea{
 }
 .foot ul li a{
   text-decoration: none;
+  display: block;
+  color: cyan;
+
 }
 .foot{
   line-height: 30px;
