@@ -168,7 +168,7 @@ form,textarea{
   display: flex;
   justify-content: space-evenly;
   margin-top: 300px;
-  background-color: #ABE1FC;
+  background-color: #ABE1FC; 
 }
 .foot ul li a{
   text-decoration: none;
@@ -181,29 +181,39 @@ form,textarea{
 }
 .image .fa-twitter-square{
   font-size: 40px;
-  color: #3A589B;
-  background-color: white;
+  color: #3A589B; */
+  /* background-color: white; */
   }
   .image .fa-facebook{
   color:#3A589B;
   font-size:35px ;
+  margin:10px 0px 10px 0px;
   }
   .image .fa-youtube{
-    font-size: 18px;
-    color:#FFF;
-    background-color:#E33F20;
-    border-radius: 50%;
-    padding: 10px;
+    font-size: 35px;
+    color: red;
+    /* background-color:#E33F20; */
+
+    padding: 1px;
   }
   .image .fa-linkedin-in{
-    font-size: 20px;
-   background-color:#3A589B; 
-   color: white;
-   border-radius: 50%;
-   padding: 10px;
+    font-size: 35px;
+   /* background-color:#3A589B;  */
+   color:#3A589B;
+   padding: 5px;
+   margin:10px 0px 10px 0px;
+   
+  
   }
   #footer p{
    color: #222222;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 55px;
+    
   }
 
 
