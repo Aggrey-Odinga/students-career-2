@@ -1,5 +1,21 @@
 body{
-  margin: 50px;
+  margin: 20px;
+}
+nav {
+  padding: 10px;
+}
+nav li{
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+nav>ul>li>a{
+  padding: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #B23128;
 }
 
 
@@ -91,11 +107,12 @@ span{
 }
 .map1{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .map img{
   width: 650px;
   height: 600px;
+
 }
 .map .fa-location-dot{
   width: 100px;
@@ -103,10 +120,13 @@ span{
   color: red;
 
 }
-.map,h1,h2{
+.map ,h1,h2{
   text-align: center;
   
-  
+}
+.map{
+  position: relative;
+  left: 230px;
 }
 
 form ,input{
@@ -148,9 +168,13 @@ form,textarea{
   display: flex;
   justify-content: space-evenly;
   margin-top: 300px;
+  background-color: #ABE1FC;
 }
 .foot ul li a{
   text-decoration: none;
+  display: block;
+  color: cyan;
+
 }
 .foot{
   line-height: 30px;
@@ -182,24 +206,5 @@ form,textarea{
    color: #222222;
   }
 
-@media screen and (max-width: 600px){
-  .contact{
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-    align-items: center;
-  }
-  .media{
-    flex-direction: column;
-    justify-content: center;
-    width: 300px;
-    height: 700px;
-  align-items: center;
-  }
-  .map1{
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 500px;
-}
-}
+
+
