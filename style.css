@@ -191,5 +191,17 @@ border-radius: 12px;
 .links1{
 float: left;
 }
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 5%;
+    color: blue;
+    background-color: rgba(249, 220, 239, 00.5s);
+    margin-top: 7%;
+}
+.info{
+    width: 40%;
+}
 
 
